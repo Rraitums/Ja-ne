@@ -13,8 +13,8 @@ body{
 }
 .wheel{
     position: relative;
-    height: 31.25rem;
-    width: 31.25rem;
+    height: 300px;
+    width: 300px;
 
 }
 .wheel::after {
@@ -52,21 +52,21 @@ span {
 .spa{
     clip-path: polygon(0 92%, 100% 50%, 0 8%);
     background-color: rgb(211, 137, 205);
-    top: 7.5rem;
+    top: 71px;
     left: 0;
 }
 
 .spb{
     clip-path: polygon(100% 92%, 0 50%, 100% 8%);
     background-color: rgb(57, 204, 237);
-    top: 7.5rem;
+    top: 71px;
     right: 0;
 }
 
 .spc{
     clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
     background-color: rgb(220, 138, 220);
-    left: 7.5rem;
+    left: 71px;
     bottom: 0;
 }
 
@@ -74,7 +74,7 @@ span {
     clip-path: polygon(50% 100%, 92% 0, 8% 0);
     background-color: rgb(114, 216, 223);
     top: 0;
-    left: 7.5rem;
+    left: 71px;
 }
 
 .sa2{
